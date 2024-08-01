@@ -1,16 +1,22 @@
-# weather_app
+<h1 align="center">👉 Weather App 👈</h1>
 
-A new Flutter project.
+<h3 align="center"> Weather App Video </h3>
+<div align="center">
+ <video src="https://github.com/user-attachments/assets/9ae7f1d8-1d99-4be1-bf95-3952bf9a95f9"> 
+</video>
+</div>
 
-## Getting Started
+<h3 align="center">👉 Weather Images👈</h3>
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<div align="center">
+  <img height="550"  src="https://github.com/user-attachments/assets/c8def274-b37c-4190-a35e-a4129fae31df" />
+  <img height="550"  src="https://github.com/user-attachments/assets/03f05ce8-4e74-4d27-b61f-4af2ffcecf56" />
+  <img height="550"  src="https://github.com/user-attachments/assets/67e045d2-a2e7-4ddd-98eb-90b9b087f243" />
+  <img height="550"  src="https://github.com/user-attachments/assets/60021861-0419-4eb1-add6-4bd9bcecff0f" />
+  <img height="550"  src="https://github.com/user-attachments/assets/c025599b-87d9-4e1f-b0b0-d380b7aaaf01" />
+  <img height="550"  src="https://github.com/user-attachments/assets/9a518f8a-b7bd-41b8-a952-b703fd394e1e" />
+</div>
+<div align="center">
+<a href="https://github.com/YashuPatel1724/weather_app/tree/master/lib">-> 📂 Go To Dart File 📂 </a>
+</div>
