@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:weather_app/modal/weather_modal.dart';
@@ -26,7 +27,7 @@ class HomePage extends StatelessWidget {
                         fit: BoxFit.cover,
                         image: (weather!.currentModal.is_day == 1)
                             ? AssetImage(
-                                'assets/images/23dQ-ezgif.com-crop.gif')
+                            'assets/images/23dQ-ezgif.com-crop.gif')
                             : AssetImage('assets/images/images.jpg')),
                   ),
                 ),
@@ -42,7 +43,7 @@ class HomePage extends StatelessWidget {
                           children: [
                             Padding(
                               padding:
-                                  const EdgeInsets.only(left: 15.0, top: 25),
+                              const EdgeInsets.only(left: 15.0, top: 25),
                               child: Icon(
                                 Icons.menu,
                                 color: Colors.white,
@@ -60,7 +61,7 @@ class HomePage extends StatelessWidget {
                             ),
                             Padding(
                               padding:
-                                  const EdgeInsets.only(right: 15.0, top: 25),
+                              const EdgeInsets.only(right: 15.0, top: 25),
                               child: InkWell(
                                 onTap: () {
                                   weatherFalse.addToFavourite(
@@ -97,21 +98,21 @@ class HomePage extends StatelessWidget {
                                     weatherFalse.citySearch(value);
                                   },
                                   cursorColor:
-                                      (weather.currentModal.is_day == 1)
-                                          ? Colors.white
-                                          : Colors.white,
+                                  (weather.currentModal.is_day == 1)
+                                      ? Colors.white
+                                      : Colors.white,
                                   decoration: InputDecoration(
                                     prefixIcon: Icon(Icons.search,
                                         color:
-                                            (weather.currentModal.is_day == 1)
-                                                ? Colors.white
-                                                : Colors.white),
+                                        (weather.currentModal.is_day == 1)
+                                            ? Colors.white
+                                            : Colors.white),
                                     hintText: 'Search',
                                     hintStyle: TextStyle(
                                         color:
-                                            (weather.currentModal.is_day == 1)
-                                                ? Colors.white
-                                                : Colors.white),
+                                        (weather.currentModal.is_day == 1)
+                                            ? Colors.white
+                                            : Colors.white),
                                     focusedBorder: OutlineInputBorder(
                                       borderRadius: BorderRadius.circular(20),
                                       borderSide: const BorderSide(
@@ -125,9 +126,9 @@ class HomePage extends StatelessWidget {
                                       borderRadius: BorderRadius.circular(20),
                                       borderSide: BorderSide(
                                           color:
-                                              (weather.currentModal.is_day == 1)
-                                                  ? Colors.white
-                                                  : Colors.white),
+                                          (weather.currentModal.is_day == 1)
+                                              ? Colors.white
+                                              : Colors.white),
                                     ),
                                   ),
                                 ),
@@ -142,7 +143,7 @@ class HomePage extends StatelessWidget {
                                     children: [
                                       TextSpan(
                                         text:
-                                            '${weather.currentModal.temp_c.toString()}',
+                                        '${weather.currentModal.temp_c.toString()}',
                                         style: TextStyle(
                                             color: Colors.white,
                                             fontWeight: FontWeight.bold,
@@ -232,7 +233,7 @@ class HomePage extends StatelessWidget {
                                           width: 80,
                                           child: Column(
                                             mainAxisAlignment:
-                                                MainAxisAlignment.start,
+                                            MainAxisAlignment.start,
                                             children: [
                                               Text(
                                                 '${hour.time.split(" ").sublist(1, 2).join(" ")}',
@@ -274,14 +275,14 @@ class HomePage extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(20),
                                         color: (weather.currentModal.is_day ==
-                                                1)
+                                            1)
                                             ? Color(0xff4E7197).withOpacity(0.8)
                                             : Color(0xff223150)
-                                                .withOpacity(0.8),
+                                            .withOpacity(0.8),
                                       ),
                                       child: Column(
                                         mainAxisAlignment:
-                                            MainAxisAlignment.center,
+                                        MainAxisAlignment.center,
                                         children: [
                                           Text(
                                             '${weather.currentModal.wind_mph} mph',
@@ -309,21 +310,21 @@ class HomePage extends StatelessWidget {
                                       decoration: BoxDecoration(
                                         borderRadius: BorderRadius.circular(20),
                                         color: (weather.currentModal.is_day ==
-                                                1)
+                                            1)
                                             ? Color(0xff4E7197).withOpacity(0.8)
                                             : Color(0xff223150)
-                                                .withOpacity(0.8),
+                                            .withOpacity(0.8),
                                       ),
                                       child: Column(
                                         mainAxisAlignment:
-                                            MainAxisAlignment.center,
+                                        MainAxisAlignment.center,
                                         children: [
                                           Text.rich(
                                             TextSpan(
                                               children: [
                                                 TextSpan(
                                                   text:
-                                                      '${weather.forcatModal.forcastday.first.astro.sunrise.split(" ").sublist(0, 1).join(" ")}',
+                                                  '${weather.forcatModal.forcastday.first.astro.sunrise.split(" ").sublist(0, 1).join(" ")}',
                                                   style: TextStyle(
                                                       color: Colors.white,
                                                       fontSize: 20),
@@ -341,7 +342,7 @@ class HomePage extends StatelessWidget {
                                               children: [
                                                 TextSpan(
                                                   text:
-                                                      '${weather.forcatModal.forcastday.first.astro.sunset.split(" ").sublist(0, 1).join(" ")}',
+                                                  '${weather.forcatModal.forcastday.first.astro.sunset.split(" ").sublist(0, 1).join(" ")}',
                                                   style: TextStyle(
                                                       color: Colors.white,
                                                       fontSize: 20),
@@ -375,11 +376,11 @@ class HomePage extends StatelessWidget {
                                         horizontal: 8.0, vertical: 10),
                                     child: Column(
                                       mainAxisAlignment:
-                                          MainAxisAlignment.spaceEvenly,
+                                      MainAxisAlignment.spaceEvenly,
                                       children: [
                                         Row(
                                           mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               'Humidity',
@@ -406,7 +407,7 @@ class HomePage extends StatelessWidget {
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               'UV',
@@ -432,7 +433,7 @@ class HomePage extends StatelessWidget {
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               'Pressure',
@@ -459,7 +460,7 @@ class HomePage extends StatelessWidget {
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               'Chance of rain',
@@ -486,7 +487,7 @@ class HomePage extends StatelessWidget {
                                         ),
                                         Row(
                                           mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
+                                          MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
                                               'Pressure in',

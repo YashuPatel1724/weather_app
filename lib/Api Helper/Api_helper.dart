@@ -21,4 +21,19 @@ class ApiHelper
             return{};
          }
    }
+
+   // Future searchCity(String search)
+   // async {
+   //    Uri url = Uri.parse('https://api.weatherapi.com/v1/search.json?key=383281ccefd5488a8bf100733243007&q=$search');
+   //    Response response = await http.get(url);
+   //
+   //    if(response.statusCode == 200)
+   //       {
+   //          return response.body;
+   //       }
+   //    else
+   //       {
+   //          return null;
+   //       }
+   // }
 }
