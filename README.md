@@ -2,12 +2,11 @@
 
 <h3 align="center"> Weather App Video </h3>
 <div align="center">
- <video src="https://github.com/user-attachments/assets/9ae7f1d8-1d99-4be1-bf95-3952bf9a95f9"> 
+ <video src="https://github.com/user-attachments/assets/12826237-2159-41f3-b1a5-3d2e4a1ad1fb"> 
 </video>
 </div>
 
 <h3 align="center">👉 Weather Images👈</h3>
-
 
 <div align="center">
   <img height="550"  src="https://github.com/user-attachments/assets/c8def274-b37c-4190-a35e-a4129fae31df" />
